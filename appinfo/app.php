@@ -34,7 +34,7 @@ if(DEBUG === true) {
 	OCP\Util::addScript ( 'ojsxc', 'jsxc/lib/otr/build/otr' );
 	OCP\Util::addScript ( 'ojsxc', 'jsxc/jsxc.lib' );
 	OCP\Util::addScript ( 'ojsxc', 'jsxc/jsxc.lib.webrtc' );
-	// OCP\Util::addScript ( 'ojsxc', 'lib/jsxc.lib.muc' );
+   OCP\Util::addScript ( 'ojsxc', 'jsxc/jsxc.lib.muc' );
 } else {
 	OCP\Util::addScript ( 'ojsxc', 'jsxc/lib/jquery.colorbox-min' );
 	OCP\Util::addScript ( 'ojsxc', 'jsxc/lib/jquery.slimscroll' );
